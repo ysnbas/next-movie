@@ -1,0 +1,23 @@
+.customSelect {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+.selectOption {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selectOption option {
+  color: #333;
+  background-color: #fff;
+}
+.selectOption:hover {
+  border-color: #999;
+}
